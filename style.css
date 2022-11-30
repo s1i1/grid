@@ -449,18 +449,15 @@ body {
 }
 
 .price__subtitle span {
+  position: relative;
   color: #6c5ce7;
 }
 
 .price__monthly {
-}
-.price__monthly_1 {
   position: absolute;
-  left: calc(50% - 126px / 2 - 7px);
-  margin: 108px 0 0 0;
-  z-index: 0;
-}
-.price__monthly_2 {
+  bottom: 0;
+  left: 0;
+  z-index: -1;
   width: 126px;
   height: 12px;
   background: #fdcb6e;
